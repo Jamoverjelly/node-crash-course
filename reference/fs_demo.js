@@ -26,7 +26,7 @@ const path = require(`path`);
 //   }
 // });
 
-// Read file
+// Rename file
 fs.rename(
   path.join(__dirname, '/test', 'hello.txt'),
   path.join(__dirname, '/test', 'helloNew.txt'),
